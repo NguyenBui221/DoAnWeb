@@ -11,9 +11,7 @@ window.addEventListener('scroll',()=>{
     }
 })
 
-/*=========================================
-    Tabs
-==========================================*/
+/*Tabs*/
 if(document.querySelector('.hm-tabs')){
 
     const tabLinks=document.querySelectorAll('.hm-tab-link');
@@ -43,9 +41,7 @@ if(document.querySelector('.hm-tabs')){
 
 }
 
-/*=========================================
-    MENU
-==========================================*/
+/*Menu*/
 
 const menu=document.querySelector('.icon-menu');
 const menuClose=document.querySelector('.cerrar-menu');

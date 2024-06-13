@@ -244,8 +244,7 @@ img{
 .hm-grid-category,
 .grid-product{
     display: grid;
-    grid-template-columns: repeat(4,calc(25% - 2rem*3/4));
-    row-gap: 2rem;
+    grid-template-columns: repeat(5, calc(20% - 2rem * 4 / 5));   
     column-gap: 2rem;
     max-width: 1122px;
 }
